@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CampusCart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>CampusCart</h2>
+    <div>Cart 🛒 <span class="cart-count" id="cartCount">0</span></div>
+</nav>
+
+<div class="container">
+
+<div class="section">
+<h2>🛍 Stationery Products</h2>
+<div class="products" id="productContainer"></div>
+</div>
+
+<div class="cart">
+<h2>🛒 Your Cart</h2>
+<ul id="cartItems"></ul>
+<h3>Total: ₹<span id="total">0</span></h3>
+<button onclick="placeOrder()">Place Order</button>
+</div>
+
+</div>
+
+<footer>
+© 2026 CampusCart | BSc Data Science Project
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
