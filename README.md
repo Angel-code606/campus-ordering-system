@@ -1,1 +1,0 @@
-# campus-ordering-system
